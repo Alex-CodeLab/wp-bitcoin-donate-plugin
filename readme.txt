@@ -45,8 +45,8 @@ That is why Donations should go directly to your personal wallet, and not stored
  
 == Screenshots ==
 
-1. the button + popover 
 1. configuration options
+1. the button + popover 
 
 == Changelog ==
 

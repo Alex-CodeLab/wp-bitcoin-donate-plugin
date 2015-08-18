@@ -1,2 +1,2 @@
 # wp-bitcoin-donate-plugin
-wordpress bitcoin donate plugin
+Wordpress bitcoin donate plugin

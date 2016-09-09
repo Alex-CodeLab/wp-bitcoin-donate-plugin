@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Bitcoin_Button
- * @version 0.9
+ * @version 0.91
  */
 /*
 Plugin Name: Bitcoin Donate Button

@@ -8,7 +8,7 @@ Plugin Name: Bitcoin Donate Button
 
 Description: Adds a Bitcoin Donate Button (with QR-code in a popover) to your blogposts.   
 Author: Alex Dijkstra
-Version: 0.9
+Version: 0.91
 Author URI: http://lxer.eu/
 */
 

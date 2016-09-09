@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) or die();
 
 
 function add_btc_button($content) {
-    if (is_page()){      
+    if (!is_front_page()){      
         
       $excludepages =  explode(",", esc_attr( get_option('btcb_exclude'))) ;
 
@@ -32,7 +32,7 @@ function add_btc_button($content) {
         $htmlcontent = '<div class=\"msg\">'.$btcadr.'<a href=\"bitcoin:'.$btcadr.'\"><img src=\"https://chart.googleapis.com/chart?chs='.$btcsize.'x'.$btcsize.'&cht=qr&chl='. $btcadr .'\"></a><br /><a href=\"https://bitcoin.org/en/getting-started\" target=\"_blank\">Start using Bitcoin.</a></div>';
         $content    .= '
         <script type="text/javascript">
-         $(document).ready(function() {
+         jQuery(document).ready(function() {
          $("#btcpopoverId").popover({
             html: true,
             title: "'.$btcpoptitle.'",
